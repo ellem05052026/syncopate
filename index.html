@@ -326,18 +326,7 @@
       max-width: 300px;
     }
 
-    .hero-mark-number {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 92px;
-      line-height: .9;
-      font-weight: 600;
-      letter-spacing: -.08em;
-      color: rgba(255,255,255,.055);
-      user-select: none;
-    }
-
     .hero-mark-title {
-      margin-top: -3px;
       font-family: "Space Grotesk", sans-serif;
       font-size: 17px;
       font-weight: 600;
@@ -489,15 +478,8 @@
       background: rgba(11,140,255,.025);
     }
 
-    .number {
-      color: var(--blue-2);
-      font-size: 11px;
-      letter-spacing: .15em;
-      font-weight: 600;
-    }
-
     .service h3 {
-      margin-top: 45px;
+      margin-top: 0;
       font-size: 25px;
     }
 
@@ -591,9 +573,10 @@
 
     .case-step strong {
       display: block;
-      color: white;
-      font-size: 12px;
+      color: var(--blue-2);
+      font-size: 11px;
       margin-bottom: 4px;
+      letter-spacing: .08em;
     }
 
     .case-step span {
@@ -658,15 +641,8 @@
       background: rgba(255,255,255,.008);
     }
 
-    .principle span {
-      color: var(--blue-2);
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: .12em;
-    }
-
     .principle h3 {
-      margin-top: 30px;
+      margin-top: 0;
       font-size: 18px;
     }
 
@@ -744,9 +720,7 @@
     .ai-item {
       padding: 21px 0;
       border-bottom: 1px solid var(--line);
-      display: grid;
-      grid-template-columns: 30px 1fr;
-      gap: 14px;
+      display: block;
     }
 
     .ai-item b {
@@ -1004,10 +978,6 @@
         padding-left: 30px;
       }
 
-      .hero-mark-number {
-        font-size: 70px;
-      }
-
       .services-head {
         display: block;
       }
@@ -1059,972 +1029,923 @@
 
   <nav class="nav">
 
-<div class="container nav-inner">
+    <div class="container nav-inner">
 
-  <a class="brand" href="#top" aria-label="Syncopate home">
-    SYNCOPATE
-  </a>
+      <a class="brand" href="#top" aria-label="Syncopate home">
+        SYNCOPATE
+      </a>
 
-  <div class="nav-links">
-    <a href="#services">What we do</a>
-    <a href="#approach">How we work</a>
-    <a href="#case-study">Case study</a>
-    <a href="#industries">Industries</a>
-    <a href="#about">About</a>
-  </div>
+      <div class="nav-links">
+        <a href="#services">What we do</a>
+        <a href="#approach">How we work</a>
+        <a href="#case-study">Case study</a>
+        <a href="#industries">Industries</a>
+        <a href="#about">About</a>
+      </div>
 
-  <a class="nav-cta" href="#contact">
-    Talk to us <span>↗</span>
-  </a>
+      <a class="nav-cta" href="#contact">
+        Talk to us <span>↗</span>
+      </a>
 
-  <button class="menu" aria-label="Open menu">
-    ☰
-  </button>
+      <button class="menu" aria-label="Open menu">
+        ☰
+      </button>
 
-</div>
+    </div>
 
   </nav>
 
   <main id="top">
 
-<!-- ========================================
-     HERO
-======================================== -->
+    <!-- ========================================
+         HERO
+    ======================================== -->
 
-<section class="hero">
+    <section class="hero">
 
-  <div class="container hero-grid">
+      <div class="container hero-grid">
 
-    <div class="reveal">
+        <div class="reveal">
 
-      <div class="eyebrow">
-        Automation · AI · Data
+          <div class="eyebrow">
+            Automation · AI · Data
+          </div>
+
+          <h1>
+            Automate the work.<br>
+            <span class="blue">Amplify the people.</span>
+          </h1>
+
+          <p class="hero-copy">
+            Syncopate helps businesses eliminate repetitive manual work,
+            streamline complex workflows and unlock better decisions through
+            automation, AI and data.
+          </p>
+
+          <div class="hero-actions">
+
+            <a class="btn-primary" href="#contact">
+              Start a conversation <span>↗</span>
+            </a>
+
+            <a class="btn-secondary" href="#services">
+              Explore what we do <span>↓</span>
+            </a>
+
+          </div>
+
+          <p class="micro">
+            Low-code where possible · Maintainable · Governed · Built for what comes next
+          </p>
+
+        </div>
+
+
+        <!-- ====================================
+             MINIMAL HERO MARK
+        ==================================== -->
+
+        <div class="hero-mark reveal">
+
+          <div class="hero-mark-content">
+
+            <div class="hero-mark-title">
+              Better work starts with removing unnecessary work.
+            </div>
+
+            <div class="hero-mark-line"></div>
+
+            <p class="hero-mark-copy">
+              We identify the repetitive, fragmented and time-consuming
+              processes that hold teams back — then redesign them around
+              automation, intelligence and better information.
+            </p>
+
+          </div>
+
+        </div>
+
       </div>
 
-      <h1>
-        Automate the work.<br>
-        <span class="blue">Amplify the people.</span>
-      </h1>
+    </section>
 
-      <p class="hero-copy">
-        Syncopate helps businesses eliminate repetitive manual work,
-        streamline complex workflows and unlock better decisions through
-        automation, AI and data.
-      </p>
 
-      <div class="hero-actions">
+    <!-- ========================================
+         TICKER
+    ======================================== -->
 
-        <a class="btn-primary" href="#contact">
+    <div class="ticker">
+
+      <div class="ticker-track">
+
+        <span>WORKFLOW AUTOMATION</span>
+        <span>•</span>
+
+        <span>AI SOLUTIONS</span>
+        <span>•</span>
+
+        <span>DATA ANALYTICS</span>
+        <span>•</span>
+
+        <span>INTELLIGENT REPORTING</span>
+        <span>•</span>
+
+        <span>GOVERNANCE & SUPPORT</span>
+        <span>•</span>
+
+        <span>WORKFLOW AUTOMATION</span>
+        <span>•</span>
+
+        <span>AI SOLUTIONS</span>
+        <span>•</span>
+
+        <span>DATA ANALYTICS</span>
+        <span>•</span>
+
+        <span>INTELLIGENT REPORTING</span>
+        <span>•</span>
+
+        <span>GOVERNANCE & SUPPORT</span>
+        <span>•</span>
+
+      </div>
+
+    </div>
+
+
+    <!-- ========================================
+         PROBLEM
+    ======================================== -->
+
+    <section class="problem">
+
+      <div class="container problem-grid">
+
+        <div class="problem-text reveal">
+
+          <div class="section-label">
+            The opportunity
+          </div>
+
+          <h2 class="section-title">
+            Your people shouldn't spend their time doing work technology can do better.
+          </h2>
+
+          <p>
+            Businesses are full of processes that have evolved over years:
+            spreadsheets, manual reporting, copying data between systems,
+            email-driven workflows, reconciliations, checks and approvals.
+          </p>
+
+          <p>
+            Individually, these tasks may seem manageable. Collectively, they
+            consume thousands of hours, introduce operational risk and stop
+            talented people focusing on the work that actually moves the
+            business forward.
+          </p>
+
+          <div class="quote">
+            The goal isn't to automate people. It's to automate the work that gets in their way.
+          </div>
+
+        </div>
+
+
+        <div class="problem-list reveal">
+
+          <div class="pain">
+            <i></i>
+            Repetitive spreadsheet manipulation
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Manual management information reporting
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Copying information between systems
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Email-driven processes and approvals
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Manual reconciliations and data checks
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Data preparation before every report
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Processes that are difficult to monitor
+          </div>
+
+          <div class="pain">
+            <i></i>
+            Teams doing yesterday's work instead of tomorrow's
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         SERVICES
+    ======================================== -->
+
+    <section id="services">
+
+      <div class="container">
+
+        <div class="services-head reveal">
+
+          <div>
+
+            <div class="section-label">
+              What we do
+            </div>
+
+            <h2 class="section-title">
+              Technology that works for the business.
+            </h2>
+
+          </div>
+
+          <p class="section-intro">
+            Practical solutions combining automation, AI, data and business
+            process expertise — designed around outcomes, not technology for
+            technology's sake.
+          </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+          <article class="service reveal">
+
+            <h3>
+              Workflow Automation
+            </h3>
+
+            <p>
+              Turn repetitive, rules-based and multi-step processes into
+              intelligent workflows that move work forward automatically.
+            </p>
+
+            <span class="service-link">
+              Process mapping · Low-code · Integration · Approvals →
+            </span>
+
+          </article>
+
+
+          <article class="service reveal">
+
+            <h3>
+              AI Solutions
+            </h3>
+
+            <p>
+              Apply AI where it genuinely improves productivity, insight or
+              decision-making — with control and governance built in.
+            </p>
+
+            <span class="service-link">
+              Document intelligence · Assistants · Analysis · AI workflows →
+            </span>
+
+          </article>
+
+
+          <article class="service reveal">
+
+            <h3>
+              Data Analytics & Insights
+            </h3>
+
+            <p>
+              Bring fragmented data together, automate preparation and give
+              decision-makers timely, actionable information.
+            </p>
+
+            <span class="service-link">
+              KPI frameworks · BI · Dashboards · Data quality →
+            </span>
+
+          </article>
+
+
+          <article class="service reveal">
+
+            <h3>
+              Intelligent Reporting
+            </h3>
+
+            <p>
+              Automate the reporting lifecycle from ingestion and transformation
+              through calculation, validation and distribution.
+            </p>
+
+            <span class="service-link">
+              MI · Automated reports · Dashboards · Distribution →
+            </span>
+
+          </article>
+
+
+          <article class="service reveal">
+
+            <h3>
+              Governance & Support
+            </h3>
+
+            <p>
+              Build the ownership, monitoring, documentation and change
+              framework required to keep automation reliable over time.
+            </p>
+
+            <span class="service-link">
+              Controls · Monitoring · Support · Change management →
+            </span>
+
+          </article>
+
+
+          <article class="service reveal">
+
+            <h3>
+              Process Transformation
+            </h3>
+
+            <p>
+              Sometimes automation isn't the first answer. We simplify and
+              standardise processes before deciding what should be automated.
+            </p>
+
+            <span class="service-link">
+              Discovery · Redesign · Prioritisation · Optimisation →
+            </span>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         CASE STUDY
+    ======================================== -->
+
+    <section id="case-study" class="case-study">
+
+      <div class="container case-grid">
+
+        <div class="case-card reveal">
+
+          <span class="case-kicker">
+            Illustrative case study
+          </span>
+
+          <h3>
+            From manual management information to automated intelligence.
+          </h3>
+
+          <div class="case-flow">
+
+            <div class="case-step">
+              <span>INGEST</span>
+              <br>
+              Upstream data
+            </div>
+
+            <div class="case-step">
+              <span>TRANSFORM</span>
+              <br>
+              Clean & enrich
+            </div>
+
+            <div class="case-step">
+              <span>CALCULATE</span>
+              <br>
+              Business rules
+            </div>
+
+            <div class="case-step">
+              <span>VALIDATE</span>
+              <br>
+              Controls
+            </div>
+
+            <div class="case-step">
+              <span>PRODUCE</span>
+              <br>
+              Dynamic MI
+            </div>
+
+            <div class="case-step">
+              <span>DISTRIBUTE</span>
+              <br>
+              Right audience
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="case-copy reveal">
+
+          <div class="section-label">
+            Featured use case · Financial services
+          </div>
+
+          <h2>
+            Stop producing information manually. Start using it intelligently.
+          </h2>
+
+          <p>
+            A major investment bank maintained a catalogue of manually
+            generated management information reports. Teams were required to
+            extract data from upstream systems, manipulate datasets, perform
+            calculations, format outputs and distribute reports to multiple
+            stakeholders.
+          </p>
+
+          <p>
+            A fully automated reporting model can ingest upstream data, perform
+            transformations and calculations, apply validation and control
+            checks, dynamically produce the required reports and distribute
+            them to the appropriate recipients — alongside a real-time or
+            near-real-time interactive dashboard.
+          </p>
+
+
+          <div class="case-results">
+
+            <div class="result">
+              <strong>Less manual effort</strong>
+              <span>
+                Reduce time spent preparing and formatting reports.
+              </span>
+            </div>
+
+            <div class="result">
+              <strong>Greater consistency</strong>
+              <span>
+                Standardise calculations, business rules and outputs.
+              </span>
+            </div>
+
+            <div class="result">
+              <strong>Stronger controls</strong>
+              <span>
+                Embed validation, traceability and exception handling.
+              </span>
+            </div>
+
+            <div class="result">
+              <strong>More valuable capacity</strong>
+              <span>
+                Move teams from production to analysis and decision-making.
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         PRINCIPLES
+    ======================================== -->
+
+    <section id="approach">
+
+      <div class="container">
+
+        <div class="reveal">
+
+          <div class="section-label">
+            Our principles
+          </div>
+
+          <h2 class="section-title">
+            Automation shouldn't create another problem to manage.
+          </h2>
+
+          <p class="section-intro">
+            A successful automation project is one the business can understand,
+            operate, maintain and adapt — long after launch day.
+          </p>
+
+        </div>
+
+
+        <div class="principles">
+
+          <div class="principle reveal">
+            <h3>Low-code where possible</h3>
+            <p>
+              Use configurable technologies where they provide the right
+              balance of speed, flexibility and maintainability.
+            </p>
+          </div>
+
+          <div class="principle reveal">
+            <h3>Built for the business</h3>
+            <p>
+              Start with the process and desired outcome, then determine how
+              technology should be applied.
+            </p>
+          </div>
+
+          <div class="principle reveal">
+            <h3>Governed from day one</h3>
+            <p>
+              Ownership, documentation, monitoring and controls are part of
+              the solution — not an afterthought.
+            </p>
+          </div>
+
+          <div class="principle reveal">
+            <h3>Designed to evolve</h3>
+            <p>
+              Build for changing systems, requirements, regulations and
+              business priorities.
+            </p>
+          </div>
+
+          <div class="principle reveal">
+            <h3>Human-centred</h3>
+            <p>
+              Remove repetitive work so people can focus on judgement,
+              creativity, relationships and expertise.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         INDUSTRIES
+    ======================================== -->
+
+    <section id="industries">
+
+      <div class="container industries">
+
+        <div class="reveal">
+
+          <div class="section-label">
+            Industries
+          </div>
+
+          <h2 class="section-title">
+            Different industries. Same fundamental problem.
+          </h2>
+
+          <p class="section-intro">
+            Wherever people repeatedly move information, produce reports,
+            check data or coordinate repetitive processes, there is an
+            opportunity to improve how work gets done.
+          </p>
+
+        </div>
+
+
+        <div class="industry-grid">
+
+          <div class="industry reveal">
+            <h3>Financial Services</h3>
+            <p>
+              MI, reconciliations, reporting, onboarding, controls and
+              operational workflows.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Healthcare</h3>
+            <p>
+              Administrative workflows, document processing, reporting and
+              information flows.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Retail & E-commerce</h3>
+            <p>
+              Customer analytics, inventory, supplier workflows, reporting
+              and operations.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Construction & Property</h3>
+            <p>
+              Project reporting, document workflows, procurement and cost
+              processes.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Recruitment</h3>
+            <p>
+              Candidate workflows, CRM automation, reporting and data
+              enrichment.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Professional Services</h3>
+            <p>
+              Client workflows, information management, reporting and
+              operational automation.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Insurance</h3>
+            <p>
+              Data-heavy processes, operational reporting, controls and
+              exception management.
+            </p>
+          </div>
+
+          <div class="industry reveal">
+            <h3>Manufacturing & Logistics</h3>
+            <p>
+              Supply chain workflows, inventory, order processes and
+              operational visibility.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         AI
+    ======================================== -->
+
+    <section class="ai-section">
+
+      <div class="container ai-grid">
+
+        <div class="reveal">
+
+          <div class="section-label">
+            Artificial intelligence
+          </div>
+
+          <h2 class="section-title">
+            AI with a purpose.
+          </h2>
+
+          <p class="section-intro">
+            AI is most valuable when it solves a real business problem.
+            We identify practical opportunities and integrate intelligence
+            into workflows rather than deploying AI for the sake of it.
+          </p>
+
+          <div class="quote">
+            Useful over flashy. Governed over experimental. Integrated over isolated. Measurable over theoretical.
+          </div>
+
+        </div>
+
+
+        <div class="ai-list reveal">
+
+          <div class="ai-item">
+
+            <div>
+              <b>Document intelligence</b>
+              <p>
+                Extract, classify and structure information automatically.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="ai-item">
+
+            <div>
+              <b>Intelligent information retrieval</b>
+              <p>
+                Give teams faster access to the knowledge they need.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="ai-item">
+
+            <div>
+              <b>AI-assisted analysis</b>
+              <p>
+                Identify patterns, summarise information and support decisions.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="ai-item">
+
+            <div>
+              <b>Intelligent workflows</b>
+              <p>
+                Combine AI and automation so processes can respond dynamically.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="ai-item">
+
+            <div>
+              <b>AI assistants</b>
+              <p>
+                Create controlled internal tools that help teams work more efficiently.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         GOVERNANCE
+    ======================================== -->
+
+    <section class="governance" id="about">
+
+      <div class="container">
+
+        <div class="governance-box reveal">
+
+          <div class="section-label">
+            Governance & support
+          </div>
+
+          <h2 class="section-title">
+            Future-proof automation needs more than good technology.
+          </h2>
+
+          <p class="section-intro">
+            Once a process becomes automated, it can become business-critical.
+            Syncopate helps establish the framework around the technology so it
+            remains reliable, controlled and serviceable.
+          </p>
+
+
+          <div class="gov-grid">
+
+            <div class="gov-list">
+
+              <div class="gov-item">
+                <div>
+                  <b>Ownership</b>
+                  <p>
+                    Clear accountability for every automated process.
+                  </p>
+                </div>
+              </div>
+
+              <div class="gov-item">
+                <div>
+                  <b>Documentation</b>
+                  <p>
+                    Transparent workflows, dependencies, rules and technical components.
+                  </p>
+                </div>
+              </div>
+
+              <div class="gov-item">
+                <div>
+                  <b>Monitoring</b>
+                  <p>
+                    Visibility of performance, failures, exceptions and operational health.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="gov-list">
+
+              <div class="gov-item">
+                <div>
+                  <b>Controls</b>
+                  <p>
+                    Validation, approvals, access controls and auditability where required.
+                  </p>
+                </div>
+              </div>
+
+              <div class="gov-item">
+                <div>
+                  <b>Change management</b>
+                  <p>
+                    A structured approach to safely evolving automated processes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="gov-item">
+                <div>
+                  <b>Continuous improvement</b>
+                  <p>
+                    Regular review to identify further optimisation and automation opportunities.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="quote">
+            We don't just automate a process. We help build the operating framework around it.
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         CTA
+    ======================================== -->
+
+    <section class="cta" id="contact">
+
+      <div class="container">
+
+        <div class="section-label">
+          Start with one process
+        </div>
+
+        <h2>
+          What could your business<br>
+          <span class="blue">stop doing manually?</span>
+        </h2>
+
+        <p>
+          Tell us about a process that is repetitive, time-consuming,
+          spreadsheet-heavy, email-driven or simply slowing your team down.
+          We'll help you understand where automation, AI or analytics could
+          make a meaningful difference.
+        </p>
+
+        <a
+          class="btn-primary"
+          href="mailto:hello@syncopate.co.uk"
+        >
           Start a conversation <span>↗</span>
         </a>
 
-        <a class="btn-secondary" href="#services">
-          Explore what we do <span>↓</span>
-        </a>
-
       </div>
 
-      <p class="micro">
-        Low-code where possible · Maintainable · Governed · Built for what comes next
-      </p>
-
-    </div>
-
-
-    <!-- ====================================
-         MINIMAL HERO MARK
-    ==================================== -->
-
-    <div class="hero-mark reveal">
-
-      <div class="hero-mark-content">
-
-        <div class="hero-mark-number">
-          01
-        </div>
-
-        <div class="hero-mark-title">
-          Better work starts with removing unnecessary work.
-        </div>
-
-        <div class="hero-mark-line"></div>
-
-        <p class="hero-mark-copy">
-          We identify the repetitive, fragmented and time-consuming
-          processes that hold teams back — then redesign them around
-          automation, intelligence and better information.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     TICKER
-======================================== -->
-
-<div class="ticker">
-
-  <div class="ticker-track">
-
-    <span>WORKFLOW AUTOMATION</span>
-    <span>•</span>
-
-    <span>AI SOLUTIONS</span>
-    <span>•</span>
-
-    <span>DATA ANALYTICS</span>
-    <span>•</span>
-
-    <span>INTELLIGENT REPORTING</span>
-    <span>•</span>
-
-    <span>GOVERNANCE & SUPPORT</span>
-    <span>•</span>
-
-    <span>WORKFLOW AUTOMATION</span>
-    <span>•</span>
-
-    <span>AI SOLUTIONS</span>
-    <span>•</span>
-
-    <span>DATA ANALYTICS</span>
-    <span>•</span>
-
-    <span>INTELLIGENT REPORTING</span>
-    <span>•</span>
-
-    <span>GOVERNANCE & SUPPORT</span>
-    <span>•</span>
-
-  </div>
-
-</div>
-
-
-<!-- ========================================
-     PROBLEM
-======================================== -->
-
-<section class="problem">
-
-  <div class="container problem-grid">
-
-    <div class="problem-text reveal">
-
-      <div class="section-label">
-        The opportunity
-      </div>
-
-      <h2 class="section-title">
-        Your people shouldn't spend their time doing work technology can do better.
-      </h2>
-
-      <p>
-        Businesses are full of processes that have evolved over years:
-        spreadsheets, manual reporting, copying data between systems,
-        email-driven workflows, reconciliations, checks and approvals.
-      </p>
-
-      <p>
-        Individually, these tasks may seem manageable. Collectively, they
-        consume thousands of hours, introduce operational risk and stop
-        talented people focusing on the work that actually moves the
-        business forward.
-      </p>
-
-      <div class="quote">
-        The goal isn't to automate people. It's to automate the work that gets in their way.
-      </div>
-
-    </div>
-
-
-    <div class="problem-list reveal">
-
-      <div class="pain">
-        <i></i>
-        Repetitive spreadsheet manipulation
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Manual management information reporting
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Copying information between systems
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Email-driven processes and approvals
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Manual reconciliations and data checks
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Data preparation before every report
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Processes that are difficult to monitor
-      </div>
-
-      <div class="pain">
-        <i></i>
-        Teams doing yesterday's work instead of tomorrow's
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     SERVICES
-======================================== -->
-
-<section id="services">
-
-  <div class="container">
-
-    <div class="services-head reveal">
-
-      <div>
-
-        <div class="section-label">
-          What we do
-        </div>
-
-        <h2 class="section-title">
-          Technology that works for the business.
-        </h2>
-
-      </div>
-
-      <p class="section-intro">
-        Practical solutions combining automation, AI, data and business
-        process expertise — designed around outcomes, not technology for
-        technology's sake.
-      </p>
-
-    </div>
-
-
-    <div class="services-grid">
-
-      <article class="service reveal">
-
-        <span class="number">
-          01 / WORKFLOW
-        </span>
-
-        <h3>
-          Workflow Automation
-        </h3>
-
-        <p>
-          Turn repetitive, rules-based and multi-step processes into
-          intelligent workflows that move work forward automatically.
-        </p>
-
-        <span class="service-link">
-          Process mapping · Low-code · Integration · Approvals →
-        </span>
-
-      </article>
-
-
-      <article class="service reveal">
-
-        <span class="number">
-          02 / INTELLIGENCE
-        </span>
-
-        <h3>
-          AI Solutions
-        </h3>
-
-        <p>
-          Apply AI where it genuinely improves productivity, insight or
-          decision-making — with control and governance built in.
-        </p>
-
-        <span class="service-link">
-          Document intelligence · Assistants · Analysis · AI workflows →
-        </span>
-
-      </article>
-
-
-      <article class="service reveal">
-
-        <span class="number">
-          03 / DATA
-        </span>
-
-        <h3>
-          Data Analytics & Insights
-        </h3>
-
-        <p>
-          Bring fragmented data together, automate preparation and give
-          decision-makers timely, actionable information.
-        </p>
-
-        <span class="service-link">
-          KPI frameworks · BI · Dashboards · Data quality →
-        </span>
-
-      </article>
-
-
-      <article class="service reveal">
-
-        <span class="number">
-          04 / REPORTING
-        </span>
-
-        <h3>
-          Intelligent Reporting
-        </h3>
-
-        <p>
-          Automate the reporting lifecycle from ingestion and transformation
-          through calculation, validation and distribution.
-        </p>
-
-        <span class="service-link">
-          MI · Automated reports · Dashboards · Distribution →
-        </span>
-
-      </article>
-
-
-      <article class="service reveal">
-
-        <span class="number">
-          05 / CONTROL
-        </span>
-
-        <h3>
-          Governance & Support
-        </h3>
-
-        <p>
-          Build the ownership, monitoring, documentation and change
-          framework required to keep automation reliable over time.
-        </p>
-
-        <span class="service-link">
-          Controls · Monitoring · Support · Change management →
-        </span>
-
-      </article>
-
-
-      <article class="service reveal">
-
-        <span class="number">
-          06 / TRANSFORMATION
-        </span>
-
-        <h3>
-          Process Transformation
-        </h3>
-
-        <p>
-          Sometimes automation isn't the first answer. We simplify and
-          standardise processes before deciding what should be automated.
-        </p>
-
-        <span class="service-link">
-          Discovery · Redesign · Prioritisation · Optimisation →
-        </span>
-
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     CASE STUDY
-======================================== -->
-
-<section id="case-study" class="case-study">
-
-  <div class="container case-grid">
-
-    <div class="case-card reveal">
-
-      <span class="case-kicker">
-        Illustrative case study
-      </span>
-
-      <h3>
-        From manual management information to automated intelligence.
-      </h3>
-
-      <div class="case-flow">
-
-        <div class="case-step">
-          <strong>01</strong>
-          <span>INGEST</span>
-          <br>
-          Upstream data
-        </div>
-
-        <div class="case-step">
-          <strong>02</strong>
-          <span>TRANSFORM</span>
-          <br>
-          Clean & enrich
-        </div>
-
-        <div class="case-step">
-          <strong>03</strong>
-          <span>CALCULATE</span>
-          <br>
-          Business rules
-        </div>
-
-        <div class="case-step">
-          <strong>04</strong>
-          <span>VALIDATE</span>
-          <br>
-          Controls
-        </div>
-
-        <div class="case-step">
-          <strong>05</strong>
-          <span>PRODUCE</span>
-          <br>
-          Dynamic MI
-        </div>
-
-        <div class="case-step">
-          <strong>06</strong>
-          <span>DISTRIBUTE</span>
-          <br>
-          Right audience
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <div class="case-copy reveal">
-
-      <div class="section-label">
-        Featured use case · Financial services
-      </div>
-
-      <h2>
-        Stop producing information manually. Start using it intelligently.
-      </h2>
-
-      <p>
-        A major investment bank maintained a catalogue of manually
-        generated management information reports. Teams were required to
-        extract data from upstream systems, manipulate datasets, perform
-        calculations, format outputs and distribute reports to multiple
-        stakeholders.
-      </p>
-
-      <p>
-        A fully automated reporting model can ingest upstream data, perform
-        transformations and calculations, apply validation and control
-        checks, dynamically produce the required reports and distribute
-        them to the appropriate recipients — alongside a real-time or
-        near-real-time interactive dashboard.
-      </p>
-
-
-      <div class="case-results">
-
-        <div class="result">
-          <strong>Less manual effort</strong>
-          <span>
-            Reduce time spent preparing and formatting reports.
-          </span>
-        </div>
-
-        <div class="result">
-          <strong>Greater consistency</strong>
-          <span>
-            Standardise calculations, business rules and outputs.
-          </span>
-        </div>
-
-        <div class="result">
-          <strong>Stronger controls</strong>
-          <span>
-            Embed validation, traceability and exception handling.
-          </span>
-        </div>
-
-        <div class="result">
-          <strong>More valuable capacity</strong>
-          <span>
-            Move teams from production to analysis and decision-making.
-          </span>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     PRINCIPLES
-======================================== -->
-
-<section id="approach">
-
-  <div class="container">
-
-    <div class="reveal">
-
-      <div class="section-label">
-        Our principles
-      </div>
-
-      <h2 class="section-title">
-        Automation shouldn't create another problem to manage.
-      </h2>
-
-      <p class="section-intro">
-        A successful automation project is one the business can understand,
-        operate, maintain and adapt — long after launch day.
-      </p>
-
-    </div>
-
-
-    <div class="principles">
-
-      <div class="principle reveal">
-        <span>01</span>
-        <h3>Low-code where possible</h3>
-        <p>
-          Use configurable technologies where they provide the right
-          balance of speed, flexibility and maintainability.
-        </p>
-      </div>
-
-      <div class="principle reveal">
-        <span>02</span>
-        <h3>Built for the business</h3>
-        <p>
-          Start with the process and desired outcome, then determine how
-          technology should be applied.
-        </p>
-      </div>
-
-      <div class="principle reveal">
-        <span>03</span>
-        <h3>Governed from day one</h3>
-        <p>
-          Ownership, documentation, monitoring and controls are part of
-          the solution — not an afterthought.
-        </p>
-      </div>
-
-      <div class="principle reveal">
-        <span>04</span>
-        <h3>Designed to evolve</h3>
-        <p>
-          Build for changing systems, requirements, regulations and
-          business priorities.
-        </p>
-      </div>
-
-      <div class="principle reveal">
-        <span>05</span>
-        <h3>Human-centred</h3>
-        <p>
-          Remove repetitive work so people can focus on judgement,
-          creativity, relationships and expertise.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     INDUSTRIES
-======================================== -->
-
-<section id="industries">
-
-  <div class="container industries">
-
-    <div class="reveal">
-
-      <div class="section-label">
-        Industries
-      </div>
-
-      <h2 class="section-title">
-        Different industries. Same fundamental problem.
-      </h2>
-
-      <p class="section-intro">
-        Wherever people repeatedly move information, produce reports,
-        check data or coordinate repetitive processes, there is an
-        opportunity to improve how work gets done.
-      </p>
-
-    </div>
-
-
-    <div class="industry-grid">
-
-      <div class="industry reveal">
-        <h3>Financial Services</h3>
-        <p>
-          MI, reconciliations, reporting, onboarding, controls and
-          operational workflows.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Healthcare</h3>
-        <p>
-          Administrative workflows, document processing, reporting and
-          information flows.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Retail & E-commerce</h3>
-        <p>
-          Customer analytics, inventory, supplier workflows, reporting
-          and operations.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Construction & Property</h3>
-        <p>
-          Project reporting, document workflows, procurement and cost
-          processes.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Recruitment</h3>
-        <p>
-          Candidate workflows, CRM automation, reporting and data
-          enrichment.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Professional Services</h3>
-        <p>
-          Client workflows, information management, reporting and
-          operational automation.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Insurance</h3>
-        <p>
-          Data-heavy processes, operational reporting, controls and
-          exception management.
-        </p>
-      </div>
-
-      <div class="industry reveal">
-        <h3>Manufacturing & Logistics</h3>
-        <p>
-          Supply chain workflows, inventory, order processes and
-          operational visibility.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     AI
-======================================== -->
-
-<section class="ai-section">
-
-  <div class="container ai-grid">
-
-    <div class="reveal">
-
-      <div class="section-label">
-        Artificial intelligence
-      </div>
-
-      <h2 class="section-title">
-        AI with a purpose.
-      </h2>
-
-      <p class="section-intro">
-        AI is most valuable when it solves a real business problem.
-        We identify practical opportunities and integrate intelligence
-        into workflows rather than deploying AI for the sake of it.
-      </p>
-
-      <div class="quote">
-        Useful over flashy. Governed over experimental. Integrated over isolated. Measurable over theoretical.
-      </div>
-
-    </div>
-
-
-    <div class="ai-list reveal">
-
-      <div class="ai-item">
-
-        <span class="blue">01</span>
-
-        <div>
-          <b>Document intelligence</b>
-          <p>
-            Extract, classify and structure information automatically.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="ai-item">
-
-        <span class="blue">02</span>
-
-        <div>
-          <b>Intelligent information retrieval</b>
-          <p>
-            Give teams faster access to the knowledge they need.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="ai-item">
-
-        <span class="blue">03</span>
-
-        <div>
-          <b>AI-assisted analysis</b>
-          <p>
-            Identify patterns, summarise information and support decisions.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="ai-item">
-
-        <span class="blue">04</span>
-
-        <div>
-          <b>Intelligent workflows</b>
-          <p>
-            Combine AI and automation so processes can respond dynamically.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="ai-item">
-
-        <span class="blue">05</span>
-
-        <div>
-          <b>AI assistants</b>
-          <p>
-            Create controlled internal tools that help teams work more efficiently.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     GOVERNANCE
-======================================== -->
-
-<section class="governance" id="about">
-
-  <div class="container">
-
-    <div class="governance-box reveal">
-
-      <div class="section-label">
-        Governance & support
-      </div>
-
-      <h2 class="section-title">
-        Future-proof automation needs more than good technology.
-      </h2>
-
-      <p class="section-intro">
-        Once a process becomes automated, it can become business-critical.
-        Syncopate helps establish the framework around the technology so it
-        remains reliable, controlled and serviceable.
-      </p>
-
-
-      <div class="gov-grid">
-
-        <div class="gov-list">
-
-          <div class="gov-item">
-            <div>
-              <b>Ownership</b>
-              <p>
-                Clear accountability for every automated process.
-              </p>
-            </div>
-          </div>
-
-          <div class="gov-item">
-            <div>
-              <b>Documentation</b>
-              <p>
-                Transparent workflows, dependencies, rules and technical components.
-              </p>
-            </div>
-          </div>
-
-          <div class="gov-item">
-            <div>
-              <b>Monitoring</b>
-              <p>
-                Visibility of performance, failures, exceptions and operational health.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div class="gov-list">
-
-          <div class="gov-item">
-            <div>
-              <b>Controls</b>
-              <p>
-                Validation, approvals, access controls and auditability where required.
-              </p>
-            </div>
-          </div>
-
-          <div class="gov-item">
-            <div>
-              <b>Change management</b>
-              <p>
-                A structured approach to safely evolving automated processes.
-              </p>
-            </div>
-          </div>
-
-          <div class="gov-item">
-            <div>
-              <b>Continuous improvement</b>
-              <p>
-                Regular review to identify further optimisation and automation opportunities.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div class="quote">
-        We don't just automate a process. We help build the operating framework around it.
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ========================================
-     CTA
-======================================== -->
-
-<section class="cta" id="contact">
-
-  <div class="container">
-
-    <div class="section-label">
-      Start with one process
-    </div>
-
-    <h2>
-      What could your business<br>
-      <span class="blue">stop doing manually?</span>
-    </h2>
-
-    <p>
-      Tell us about a process that is repetitive, time-consuming,
-      spreadsheet-heavy, email-driven or simply slowing your team down.
-      We'll help you understand where automation, AI or analytics could
-      make a meaningful difference.
-    </p>
-
-    <a
-      class="btn-primary"
-      href="mailto:hello@syncopate.co.uk"
-    >
-      Start a conversation <span>↗</span>
-    </a>
-
-  </div>
-
-</section>
+    </section>
 
   </main>
 
@@ -2034,25 +1955,25 @@
 
   <footer>
 
-<div class="container footer-inner">
+    <div class="container footer-inner">
 
-  <div class="footer-brand">
-    <strong>SYNCOPATE</strong>
-    <span>Automate the work. Amplify the people.</span>
-  </div>
+      <div class="footer-brand">
+        <strong>SYNCOPATE</strong>
+        <span>Automate the work. Amplify the people.</span>
+      </div>
 
-  <div class="footer-links">
-    <a href="#services">Services</a>
-    <a href="#case-study">Case study</a>
-    <a href="#industries">Industries</a>
-    <a href="mailto:hello@syncopate.co.uk">Contact</a>
-  </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#case-study">Case study</a>
+        <a href="#industries">Industries</a>
+        <a href="mailto:hello@syncopate.co.uk">Contact</a>
+      </div>
 
-  <div>
-    © 2026 Syncopate. All rights reserved.
-  </div>
+      <div>
+        Syncopate. All rights reserved.
+      </div>
 
-</div>
+    </div>
 
   </footer>
 
